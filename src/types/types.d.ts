@@ -9,7 +9,7 @@ export interface Transaction {
 
 /** Represents a merchant and its Bezos-related status */
 export interface Merchant {
-  id: string;              // Unique identifier for the merchant
+  id: number;              // Unique identifier for the merchant
   merchant: string;        // Name of the merchant
   isBezosRelated: boolean; // Indicates if the merchant is Bezos-related
 }
