@@ -24,8 +24,6 @@ const TransactionRow: React.FC<TransactionRowProps> = ({
     transaction.merchant_name
   );
 
-  console.log(bezosMerchants, transaction);
-
   return (
     <tr>
       <td>{transaction.date}</td>
