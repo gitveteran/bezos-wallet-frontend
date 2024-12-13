@@ -1,11 +1,8 @@
 import React from "react";
-import { useTransactions } from "./hooks/useTransactions";
+import HomePage from "./pages/HomePage";
 
 const App: React.FC = () => {
-  useTransactions();
-  return (
-    <>Hello Bezos Wallet!</>
-  )
+  return <HomePage />;
 };
 
 export default App;
