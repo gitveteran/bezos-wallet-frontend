@@ -1,5 +1,5 @@
 // Base URL for the GraphQL server
-const BASE_URL = "localhost:3000"; // Replace with your server URL or use an environment variable
+const BASE_URL = "https://t6kg4z-3000.csb.app"; // Replace with your server URL or use an environment variable
 
 // Construct the HTTP endpoint for GraphQL queries and mutations
 const GRAPHQL_HTTP_URI = `http://${BASE_URL}/graphql`;
@@ -10,7 +10,7 @@ const GRAPHQL_WS_URI = `ws://${BASE_URL}/graphql`;
 // Export the GraphQL endpoints for use across the app
 export const GRAPHQL_ENDPOINTS = {
   HTTP: GRAPHQL_HTTP_URI, // HTTP endpoint for queries and mutations
-  WS: GRAPHQL_WS_URI,     // WebSocket endpoint for subscriptions
+  WS: GRAPHQL_WS_URI, // WebSocket endpoint for subscriptions
 };
 
 // Options for the WebSocket connection (used for subscriptions)
